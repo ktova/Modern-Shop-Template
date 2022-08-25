@@ -7,8 +7,8 @@ export default function Index() {
   let row = []
   for(let i=0;i<8;i++) row.push(<div className={styles.store__box}>
       <div className={styles.store__image}></div>
-      <div className={styles.store__title}>Discord Nitro</div>
-      <div className={styles.store__description}>Lorem ipsum dolor sit amet</div>
+      <div className={styles.store__title}>Kentski</div>
+      <div className={styles.store__description}>sinj autiste</div>
       <button className={styles.store__btn}>Add to cart</button>
   </div>)
   return (
@@ -22,13 +22,13 @@ export default function Index() {
         <div className={styles.container}>
             <div className={styles.header +" "+ styles.flex}>
                 <div className={styles.flex__1 + " "+ styles.container}>
-                    <h1>Welcome to LOGO.com</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis in aliquid numquam ipsa, praesentium iusto.</p>
+                    <h1>Welcome to Nword.store</h1>
+                    <p>Achète ton Nword-pass dès à présent mon gar</p>
                     <Link href="/store"><a className={styles.action__btn}>Shop</a></Link>
                 </div>
                 <div className={styles.flex__1}>
                     <div className={styles.header__box}>
-                        <h1 className={styles.header__item__title}>Air Jordan 6x (retro)</h1>
+                        <h1 className={styles.header__item__title}>Nword 70% Kentski</h1>
                         <div className={styles.header__item__image}></div>
                         <button className={styles.store__btn}>Add to cart</button>
                     </div>
@@ -58,7 +58,7 @@ export default function Index() {
             </div>
         </div>
             <footer className={styles.footer}>
-                <h3>Created by: <a href="https://abdennour.me">Abdennour Mez</a></h3>
+                <h4>Nword.store</h4>
             </footer></>
   )
 }

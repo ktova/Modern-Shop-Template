@@ -29,7 +29,7 @@ export default function Store () {
             </div>
         </div>
         <footer className={styles.footer}>
-                <h3>Created by: <a href="https://abdennour.me">Abdennour Mez</a></h3>
+                <h4>Nword.store</h4>
             </footer>
         </>
     )

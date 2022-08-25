@@ -30,7 +30,7 @@ export default function Contact() {
                 <label className={styles.label}>Phone</label><br/>
                 <label className={styles.info}>+213 542147570</label><br/>
                 <label className={styles.label}>Email</label><br/>
-                <label className={styles.info}>abdennour.mez160@gmail.com</label><br/>
+                <label className={styles.info}>bazouzou.poupi@gmail.com</label><br/>
             </div>
         </div>
         </>

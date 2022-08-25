@@ -12,7 +12,7 @@ export default function Header () {
     return (
         <div className={open? styles.navbar + " "+ styles.navbar__open: styles.navbar}>
             <div className={styles.flex__1}>
-                <Link href="/"><a className={styles.nav__link +" "+ styles.logo}>LOGO</a></Link>
+                <Link href="/"><a className={styles.nav__link +" "+ styles.logo}>Nword.store</a></Link>
             </div>
             <button className={styles.flex__1 + " "+ styles.menu__btn} onClick={()=> setOpen(!open)}>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="21" viewBox="0 0 40 21">
@@ -32,7 +32,6 @@ export default function Header () {
                 <Link href="/"><a className={`${styles.nav__link} ${router.pathname === "/"? styles.nav__active: null}`}>Home</a></Link>
                 <Link href="/store"><a className={`${styles.nav__link} ${router.pathname === "/store"? styles.nav__active: null}`}>Shop</a></Link>
                 <Link href="/contact"><a className={`${styles.nav__link} ${router.pathname === "/contact"? styles.nav__active: null}`}>Contact</a></Link>
-                <Link href="/privacy"><a className={`${styles.nav__link} ${router.pathname === "/privacy"? styles.nav__active: null}`}>Privacy</a></Link>
             </div>
         </div>
     )
